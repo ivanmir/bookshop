@@ -1,0 +1,8 @@
+using MY_BOOKSHOP_AUTHORS as MY_BOOKSHOP_AUTHORS;
+entity MY_BOOKSHOP_BOOKS {
+  key ID : Integer;
+  TITLE : String(5000);
+  AUTHOR : association to MY_BOOKSHOP_AUTHORS on AUTHOR.ID = AUTHOR_ID;
+  STOCK : Integer;
+  AUTHOR_ID : Integer;
+};

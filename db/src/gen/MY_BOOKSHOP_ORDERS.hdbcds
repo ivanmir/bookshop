@@ -1,0 +1,9 @@
+using MY_BOOKSHOP_BOOKS as MY_BOOKSHOP_BOOKS;
+entity MY_BOOKSHOP_ORDERS {
+  key ID : String(36);
+  BOOK : association to MY_BOOKSHOP_BOOKS on BOOK.ID = BOOK_ID;
+  BUYER : String(5000);
+  DATE : UTCDateTime;
+  AMOUNT : Integer;
+  BOOK_ID : Integer;
+};

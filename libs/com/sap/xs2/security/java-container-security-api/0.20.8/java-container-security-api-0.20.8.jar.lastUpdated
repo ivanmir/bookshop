@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Fri Jul 06 10:50:23 BRT 2018
+http\://nexus\:8081/nexus/content/groups/build.snapshots/.lastUpdated=1530885023216
+http\://nexus.wdf.sap.corp\:8081/nexus/content/groups/build.releases.3rd-party/.error=Could not transfer artifact com.sap.xs2.security\:java-container-security-api\:jar\:0.20.8 from/to 3rd-party-artifacts (http\://nexus.wdf.sap.corp\:8081/nexus/content/groups/build.releases.3rd-party/)\: The operation was cancelled.
+@default-3rd-party-artifacts-http\://nexus.wdf.sap.corp\:8081/nexus/content/groups/build.releases.3rd-party/.lastUpdated=1530884558237

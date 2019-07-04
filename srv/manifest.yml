@@ -1,0 +1,8 @@
+---
+applications:
+  - name: bookshop-srv
+    memory: 512M
+    buildpack: sap_java_buildpack
+    path: target/bookshop-srv-1.0-SNAPSHOT.war  
+    services:
+    - bookshop
