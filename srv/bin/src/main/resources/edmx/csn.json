@@ -2,7 +2,7 @@
   "definitions": {
     "CatalogService": {
       "kind": "service",
-      "@source": "srv\\my-service.cds"
+      "@source": "srv/my-service.cds"
     },
     "CatalogService.Books": {
       "kind": "entity",

@@ -2,7 +2,6 @@ package my.company;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.HashMap;
 import java.util.List;
 
 import org.slf4j.Logger;
@@ -17,15 +16,11 @@ import com.sap.cloud.sdk.service.prov.api.annotations.BeforeUpdate;
 import com.sap.cloud.sdk.service.prov.api.annotations.Function;
 import com.sap.cloud.sdk.service.prov.api.exits.BeforeCreateResponse;
 import com.sap.cloud.sdk.service.prov.api.exits.BeforeUpdateResponse;
-import com.sap.cloud.sdk.service.prov.api.operations.Query;
 import com.sap.cloud.sdk.service.prov.api.request.CreateRequest;
 import com.sap.cloud.sdk.service.prov.api.request.OperationRequest;
-import com.sap.cloud.sdk.service.prov.api.request.QueryRequest;
 import com.sap.cloud.sdk.service.prov.api.request.UpdateRequest;
 import com.sap.cloud.sdk.service.prov.api.response.ErrorResponse;
 import com.sap.cloud.sdk.service.prov.api.response.OperationResponse;
-import com.sap.cloud.sdk.service.prov.api.response.QueryResponse;
-import com.sap.cloud.sdk.service.prov.v2.rt.core.EntityDataV2;
 import com.sap.gateway.core.api.enums.HttpStatus;
 
 public class ValidateBooks {
